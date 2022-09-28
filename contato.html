@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+<body>
+    <form>
+    <!-- <form method="get" action="index.html"> -->
+        <!-- <input type="text" name="q" placeholder="nome"  -->
+       <!-- value="nome inicial"/>  -->
+       <input type="text" name="nome" placeholder="Nome" /><br />
+       <input type="email" name="email" placeholder="E-mail" /><br />
+       <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx" /><br />
+       <input type="number" name="idade" placeholder="idade" /><br />
+       <input type="url" name="LinkedIn" placeholder="LinkedIn URL" /><br />
+       Urgência <input type="range" name="urgencia" min=0 max=100 step=0.1 /><br />
+       <input type="checkbox" name="dia-da-semana" value="2" />  Segunda-feira <br />
+       <input type="checkbox" name="dia-da-semana" value="4" />  Quarta-feira <br />
+       <input type="checkbox" name="dia-da-semana" value="6" />  Sexta-feira <br />
+       <input type="radio" name="horario" value="manha" /> Manha 
+       <input type="radio" name="horario" value="tarde" /> tarde 
+       <input type="radio" name="horario" value="noite" /> noite <br />
+       <textarea name="mensagem" cols=50 rows=10></textarea><br />
+       Cidade: <input list="cidade" name="cidade" />
+       <datalist id="cidade">
+            <!-- <option value=>Selecione a cidade</option> -->
+            <option value="salvador">Salvador</option>
+            <option value="Manaus">Manaus</option>
+            <option value="juiz de Fora">Juiz de Fora</option>
+       </datalist><br />
+       <button type="button">outra ação</button>
+       <button type="reset">Limpar</button>
+       <button type="submit">enviar mensagem</button>
+    </form>   
+</body>
+</html>
